@@ -1,6 +1,10 @@
+"use client"
+
 import React from "react";
 import Link from "next/link";
 import MovieCard from "../components/MovieCard"
+import MovieCard2 from "../components/MovieCard2"
+import MovieCard3 from "../components/MovieCard3"
 
 export default function Movies() {
   return (
@@ -38,7 +42,11 @@ export default function Movies() {
           </Link>
         </div>
       </div>
+        <div>
             <MovieCard/>
+            <MovieCard2/>
+            <MovieCard3/>
+            </div>
     </main>
   );
 }
